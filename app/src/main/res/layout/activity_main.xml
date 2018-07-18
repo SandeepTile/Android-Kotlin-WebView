@@ -42,20 +42,19 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/fb"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.25"
-            android:background="@drawable/ic_004_facebook"
             android:layout_margin="5dp"
-            android:onClick="load"
-            android:id="@+id/fb"
-            />
+            android:layout_weight="0.25"
+            android:background="@drawable/ic_004_facebook_logo_button"
+            android:onClick="load" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.25"
-            android:background="@drawable/ic_003_search"
+            android:background="@drawable/ic_003_google_logo"
             android:layout_margin="5dp"
             android:onClick="load"
             android:id="@+id/google"
@@ -65,7 +64,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.25"
-            android:background="@drawable/ic_002_youtube"
+            android:background="@drawable/ic_002_youtube_logo"
             android:layout_margin="5dp"
             android:onClick="load"
             android:id="@+id/ytube"
@@ -75,7 +74,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.25"
-            android:background="@drawable/ic_001_html_5"
+            android:background="@drawable/ic_001_html_5_logo"
             android:layout_margin="5dp"
             android:onClick="load"
             android:id="@+id/html"
